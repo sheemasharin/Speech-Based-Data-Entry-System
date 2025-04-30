@@ -1,2 +1,2 @@
 # Speech-Based-Data-Entry-System
-This Python script creates a simple voice-controlled assistant that listens to user commands, processes the speech, and performs a Google search based on the recognized query. It utilizes the speech_recognition library for speech-to-text, the pyttsx3 library for text-to-speech conversion, and the web browser module to open Google searches.
+This Python script captures voice input for name, email, and message using speech recognition, converts it to text, and sends the data to a Google Sheet via a webhook URL. It uses `pyttsx3` for text-to-speech responses and `requests` to send data to the sheet.
